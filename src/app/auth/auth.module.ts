@@ -4,6 +4,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { ReactiveFormsModule } from "@angular/forms"
 
 import { RegisterComponent } from "src/app/auth/components/register/register.component";
+import { LoginComponent } from "src/app/auth/components/login/login.component";
 import { StoreModule } from "@ngrx/store";
 import { reducers } from "./store/reducers";
 import { AuthService } from "./services/auth.service";
@@ -17,11 +18,15 @@ const routes: Routes = [
     {
         path: 'register',
         component: RegisterComponent
-    }
+    },
+    {
+        path: 'login',
+        component: LoginComponent
+    },
 ]
 
 @NgModule({
-    declarations: [RegisterComponent],
+    declarations: [RegisterComponent, LoginComponent],
     providers: [AuthService, PersistanceService],
     imports: [
         CommonModule,
