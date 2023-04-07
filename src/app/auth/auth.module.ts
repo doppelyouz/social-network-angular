@@ -10,7 +10,7 @@ import { reducers } from "./store/reducers";
 import { AuthService } from "./services/auth.service";
 import { EffectsModule } from "@ngrx/effects";
 import { RegisterEffect } from "./store/effects/register.effect";
-import { BackendErrorsMessagesModule } from "../shared/modules/backendErrorMessages/backendErrorMessages.modue";
+import { BackendErrorsMessagesModule } from "../shared/modules/backendErrorMessages/backendErrorMessages.module";
 import { PersistanceService } from "./services/persistance.service";
 import { LoginEffect } from "./store/effects/login.effect";
 
