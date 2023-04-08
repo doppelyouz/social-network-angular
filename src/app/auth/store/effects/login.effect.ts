@@ -4,9 +4,9 @@ import { catchError, map, of, switchMap, tap } from "rxjs";
 import { AuthService } from "../../services/auth.service";
 import { CurrentUserInterface } from "src/app/shared/currentUser.interface";
 import { HttpErrorResponse } from "@angular/common/http";
-import { PersistanceService } from "../../services/persistance.service";
 import { Router } from "@angular/router";
 import { loginAction, loginFailureAction, loginSuccessAction } from "../actions/login.action";
+import { PersistanceService } from "src/app/shared/services/persistance.service";
 
 @Injectable()
 export class LoginEffect {
