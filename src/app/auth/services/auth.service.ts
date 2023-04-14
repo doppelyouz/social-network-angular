@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { RegisterRequestInterface } from "../types/registerRequest.interface";
 import { Observable, map } from "rxjs";
-import { CurrentUserInterface } from "../../shared/currentUser.interface";
+import { CurrentUserInterface } from "../../shared/types/currentUser.interface";
 import { HttpClient } from '@angular/common/http'
 import { apiUrl } from "src/apiUrl";
 import { AuthResponseInterface } from "../types/authResponse.interface";

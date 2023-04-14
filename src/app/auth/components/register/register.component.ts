@@ -5,9 +5,9 @@ import { registerAction } from '../../store/actions/register.action';
 import { Observable } from 'rxjs';
 import { isSubmittingSelector, validationErrorsSelector } from '../../store/selectors';
 import { AuthService } from '../../services/auth.service';
-import { CurrentUserInterface } from 'src/app/shared/currentUser.interface';
+import { CurrentUserInterface } from 'src/app/shared/types/currentUser.interface';
 import { RegisterRequestInterface } from '../../types/registerRequest.interface';
-import { BackendErrorsInterface } from 'src/app/shared/backendErrors.interface';
+import { BackendErrorsInterface } from 'src/app/shared/types/backendErrors.interface';
 
 @Component({
   selector: 'app-register',

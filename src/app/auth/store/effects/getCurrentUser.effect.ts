@@ -10,7 +10,7 @@ import {
   getCurrentUserSuccessAction,
   getCurrentUserFailureAction
 } from 'src/app/auth/store/actions/getCurrentUser.action'
-import { CurrentUserInterface } from 'src/app/shared/currentUser.interface'
+import { CurrentUserInterface } from 'src/app/shared/types/currentUser.interface'
 
 @Injectable()
 export class GetCurrentUserEffect {

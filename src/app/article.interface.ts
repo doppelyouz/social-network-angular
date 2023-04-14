@@ -1,4 +1,4 @@
-import { ProfileInterface } from "./shared/profile.interface"
+import { ProfileInterface } from "./shared/types/profile.interface"
 
 export interface ArticleInterface {
   author: ProfileInterface
